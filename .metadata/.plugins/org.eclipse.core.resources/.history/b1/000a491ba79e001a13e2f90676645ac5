@@ -1,0 +1,32 @@
+package arrays;
+
+public class ToFindDublicateInArray {
+
+	public static void main(String[] args)
+	{
+		//String s []= {"manoj","gireesh","pasha","madan","samir","manoj"};
+		char c []= {'c','a','m','c'};
+		boolean f=false;
+		for (int i = 0; i < c.length; i++)
+		{
+			for (int j = i+1; j < c.length; j++) 
+			{
+				if(c[i]==c[j])
+				{
+					System.out.println("Dublicate Element is there :"+c[i]);
+					f=true;
+				}
+				
+			}
+			
+		}
+		if(f=false)
+		{
+			System.out.println("dublicate element is not there");
+		}
+		
+		
+
+	}
+
+}

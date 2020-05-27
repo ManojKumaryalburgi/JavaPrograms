@@ -1,0 +1,22 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class SortElementUsingBuiltIN {
+
+	public static void main(String[] args) {
+		int a[]= {1,20,2,40,60};
+		//approach1
+		System.out.println("element before sorting :"+Arrays.toString(a));
+		Arrays.parallelSort(a);
+		System.out.println("element After sorting :"+Arrays.toString(a));
+		
+		//approach2
+		int b[]= {1,20,2,40,60};
+		System.out.println("element before sorting :"+Arrays.toString(b));
+		Arrays.sort(b);
+		System.out.println("element After sorting :"+Arrays.toString(b));
+
+	}
+
+}

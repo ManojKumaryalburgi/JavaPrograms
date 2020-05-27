@@ -1,0 +1,28 @@
+package arrays;
+
+public class LinearSearch {
+
+	public static void main(String[] args) {
+		int [] a= {10,90,30,40,50,40};
+		boolean flag=false;
+		
+		int ele=40;
+		
+		for (int i = 0; i < a.length; i++)
+		{
+			if(ele==a[i])
+			{
+				System.out.println("element fount at index :"+i);
+				flag=true;
+			}
+			
+		}
+		
+		if(flag==false)
+		{
+			System.out.println("Element Not found");
+		}
+
+	}
+
+}

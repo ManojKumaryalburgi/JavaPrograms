@@ -1,0 +1,32 @@
+package strings;
+
+public class Converting_CharacterArrayToString {
+
+	public static void main(String[] args) {
+		
+		/*we can convert char array to sting in three ways
+		 * 1)using string(char c [])
+		 * 2)using valueof(char c []) 
+		 * 3)with out using built in
+		 */
+		
+		//1 :using string(char c [])
+		char c []= {'m','a','n','o','j'};
+		 
+		String s = new String(c);
+		System.out.println(s);
+		
+		
+		//2 :using valueof(char c [])
+		
+		char c1[]= {'m','a','d','a','n'};
+		
+		String s1 = String.valueOf(c1);
+		System.out.println(s1);
+		
+		
+		
+
+	}
+
+}
